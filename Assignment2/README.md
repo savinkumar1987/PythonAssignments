@@ -6,8 +6,8 @@
 
 # HOW IT WORKS
 # The user is prompted to enter a number.
-# The program find the reminder of the number with 2.
-# if the reminder is 0, print the number is even, else print the number is odd.
+# find the reminder of the number with 2 and check whether the reminder is equal to 0.
+# if the reminder is equal to 0, print the number is even, else print the number is odd.
 
 # TASK 2
 # Sum of first 50 integers.
