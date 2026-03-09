@@ -5,21 +5,12 @@ def calc(num): #define calc() to calculate square root, log and sine value
     :param num: float
     :return: tuple
     """
-    sqrt_val = math.sqrt(num) #square root
-    log_val =math.log(num) #log
-    sine_val =math.sin(num) #sine
+    sqrt_val = math.sqrt(num)
+    log_val =math.log(num)
+    sine_val =math.sin(num)
     return sqrt_val, log_val, sine_val # returning value as tuple.
 
-while True:
-    try:
-        number = int(input("Enter a positive number: "))
-        if number <= 0:
-            print("Number must be greater than 0 ")
-            continue
-        sqrt_result, log_result, sine_result = calc(number)
-        print(f"Square root: {sqrt_result}")
-        print(f"Logarithm: {log_result}")
-        print(f"Sine: {sine_result}")
-        break
-    except ValueError:
-        print("Enter a valid number")
+number = int(input("Enter a positive number: ")) # asking user to enter a positive number
+sqrt_result, log_result, sine_result = calc(number) # calling calc() to calculate sqrt, log and sine operations.
+print(f"Logarithm: {log_result}")
+print(f"Sine: {sine_result}")

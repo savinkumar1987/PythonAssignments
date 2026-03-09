@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines.
+you can add more lines to file.
+the program will read all lines.
